@@ -1,6 +1,6 @@
 cask "clipshot" do
-  version "1.1.0"
-  sha256 "e3185687a6fd9b304c2f87d7eac0e07a8a168ee67e617929f90a0854c83be017"
+  version "1.1.1"
+  sha256 "b9a7970225af26dc5d929d234d1249fa0c590f904405b52448237fb28366938a"
 
   url "https://github.com/egekibar/Clipshot/releases/download/v#{version}/Clipshot-#{version}.dmg"
   name "Clipshot"
