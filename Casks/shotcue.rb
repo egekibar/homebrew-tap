@@ -1,6 +1,6 @@
 cask "shotcue" do
-  version "1.2.1"
-  sha256 "c14027ca74028bd6bb796afcba97af1557b3eecadd7acbdb7a118ffcbb014208"
+  version "1.2.2"
+  sha256 "4133d39a0387cdc855861318ba8f0cefc73f356b86e8942a3f406c7cc84afbb6"
 
   url "https://github.com/egekibar/Shotcue/releases/download/v#{version}/Shotcue-#{version}.dmg"
   name "Shotcue"
