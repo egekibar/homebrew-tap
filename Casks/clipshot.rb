@@ -1,6 +1,6 @@
 cask "clipshot" do
-  version "1.1.1"
-  sha256 "b9a7970225af26dc5d929d234d1249fa0c590f904405b52448237fb28366938a"
+  version "1.2.0"
+  sha256 "8aa059f70462dab79a0ddd84b88bcba1dac3a5274a24450701a0895cae31c926"
 
   url "https://github.com/egekibar/Clipshot/releases/download/v#{version}/Clipshot-#{version}.dmg"
   name "Clipshot"
@@ -30,6 +30,7 @@ cask "clipshot" do
             quit:      "com.egekibar.clipshot"
 
   zap trash: [
+    "~/Library/Application Support/Clipshot",
     "~/Library/LaunchAgents/com.egekibar.clipshot.plist",
     "~/Library/Preferences/com.egekibar.clipshot.plist",
   ]
